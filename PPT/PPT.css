@@ -1,0 +1,29 @@
+/*缩略滚动图*/
+#photos{
+    background-color:red;
+    overflow:hidden;
+    width:540px;
+    cursor:pointer;
+}
+#photos_inner{
+    background-color:yellow;
+    height:100px;
+    width:1800px;
+    overflow:hidden;
+    position:relative;
+}
+#photos_inner img{
+    float:left;
+    height:100px;
+    width:180px;
+}
+/*主屏幕*/
+#mainPic{
+    background-color:lightblue;
+    width:540px;
+    height:300px;
+}
+#mainPic img{
+    width:540px;
+    height:300px;
+}
