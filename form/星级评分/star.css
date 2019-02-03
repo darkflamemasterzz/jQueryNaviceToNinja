@@ -1,0 +1,38 @@
+
+/*整个星星的样式*/
+.stars div a{
+    background: transparent url(img/star_sprite.png) no-repeat;
+    background-size: 28px 28px;
+    display: inline-block;
+    width:28px;
+    height:28px;
+    overflow:hidden;
+    text-indent: -999em;
+    background-position: -14px 0;
+    transform:scaleX(-1);
+}
+/*右边-没选中*/
+.stars a.rating-right{
+    background-position:-14px 0;
+    transform:scaleX(1);
+}
+/*左边-选中*/
+.stars a.rating{
+    background-position:14px 0;
+    transform:scaleX(1);
+}
+/*右边-选中*/
+.stars a.rating.rating-right{
+    background-position:14px 0;
+    transform:scaleX(-1);
+}
+
+
+
+
+
+
+
+
+
+
