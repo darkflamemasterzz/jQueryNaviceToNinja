@@ -1,0 +1,1 @@
+js 24中的this没有指向最近选择的 $(editElement) 而指向了**执行了click事件**的$('.editable, .editable-area')
