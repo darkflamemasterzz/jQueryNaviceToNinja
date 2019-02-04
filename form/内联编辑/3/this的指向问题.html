@@ -1,0 +1,34 @@
+<html>
+<head>
+    <style>
+        #test{
+            color:red;
+        }
+        #test span{
+            color:blue;
+        }
+    </style>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+        $('document').ready(function(){
+            $('#test').click(function(){
+                console.log('第一层:' + this);
+                $('#test span')
+                // 这里的this指向window
+                    .on('click',function(){console.log('第二层:' + this);})
+                    .on('click',(function(){console.log('第二层-2:' + this);})())
+                    // 这里的this指向#test
+                    .css("color",$(this).css("color"));  // 为啥两个this不是指向同一个DOM元素？？？
+            });
+        });
+    </script>
+
+</head>
+<body>
+<p id="test">
+    this的指向问题（第一层）
+    <span>第二层</span>
+</p>
+
+</body>
+</html>
