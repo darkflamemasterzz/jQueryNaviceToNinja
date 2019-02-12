@@ -1,0 +1,29 @@
+.title{
+    border-bottom:1.5px solid black;
+}
+
+.paging-back, .paging-next{
+    border:1.5px solid lightgray;
+    cursor:pointer;
+    width:20px;
+}
+
+.wrapper-paging ul{
+    padding-left:0;
+    color:gray;
+}
+.wrapper-paging li{
+    list-style-type:none;
+    float:left;
+    margin-right:10px;
+}
+
+
+thead tr th{
+    color:gray;
+    border-bottom:1.5px solid lightgray;border-top:1.5px solid lightgray;
+    padding:1px 50px 1px 1px;
+}
+tbody th{
+    font-weight:normal;
+}

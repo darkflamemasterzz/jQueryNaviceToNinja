@@ -1,0 +1,39 @@
+#tags{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:380px;
+}
+#tags li{
+    border: 1px solid #ccc;
+    float:left;
+    width:60px;height:60px;
+    font-size:0.8em;
+    margin:3px;
+    padding:0.4em;
+    text-align:center;
+}
+.buttons{
+    position:relative;
+    bottom:-240px;
+    left:-310px;
+}
+
+/*Selectable插件*/
+#tags .ui-selecting{
+    background: #FECA40;
+}
+#tags .ui-selected{
+    background: #F39814;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+thead{
+    background-color:lightgray;
+    color:white;
+}
+tbody th{
+    font-weight:normal;
+}
+.faux-head{
+    list-style-type:none;
+    position:absolute;
+    padding:0;
+}
+.faux-head li{
+    background-color:lightgray;
+    color:white;
+    float:left;
+    margin:1px;
+    font-weight:bold;
+}

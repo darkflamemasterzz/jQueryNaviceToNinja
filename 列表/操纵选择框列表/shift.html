@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script src="../../plugins/jquery-3.3.1.min.js"></script>
+    <!--<script src="../../plugins/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>-->
+    <script src="shift.js"></script>
+    <link rel="stylesheet" type="text/css" href="shift.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../../plugins/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css"/>-->
+</head>
+<body>
+<select id="candidates" multiple="multiple" size="8">
+    <option value="142">Beau Dandy</option>  <!--value干什么用的-->
+    <option value="141">Mo' Fat</option>
+    <option value="140">Mr Speaker</option>
+    <option value="139">Kelly Kellie</option>
+    <option value="138">Darth Fad</option>
+    <option value="137">Music Pty</option>
+    <option value="136">Computer</option>
+    <option value="135">Baron von</option>
+</select>
+
+<select id="a-listers" multiple="multiple" size="8">
+    <option value="232">Johnny Stardust</option>
+    <option value="231">Glendatronix</option>
+    <option value="230">Beau Dandy</option>
+    <option value="229">The Punkless Brewster</option>
+    <option value="228">Thome Angeles</option>
+</select>
+<div id="controls">
+    <p id="swap">
+        <input type="button" id="swapLeft" value="&lt;"/>
+        <input type="button" id="swapRight" value="&gt;"/>
+    </p>
+    <p id="swapAll">
+        <input type="button" id="swapLeftAll" value="&lt;&lt;"/>
+        <input type="button" id="swapRightAll" value="&gt;&gt;"/>
+    </p>
+    <p id="search">
+        <span>搜索：</span>
+        <input type="text" value="请输入你要搜索的内容"/>
+    </p>
+</div>
+</body>
+</html>
